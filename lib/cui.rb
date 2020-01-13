@@ -1,6 +1,7 @@
 require 'pastel'
 require 'tty-prompt'
 
+
 PASTEL = Pastel.new
 PROMPT = TTY::Prompt.new(symbols: {
     marker: '$',
@@ -10,6 +11,7 @@ PROMPT = TTY::Prompt.new(symbols: {
     arrow_down: 'down'
 }.freeze,
 active_color: :yellow)
+
 
 def gnrt_line(str, align, ptrn)
     new_str = ""
