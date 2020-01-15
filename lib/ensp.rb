@@ -38,8 +38,6 @@ def flushConf()
 
     cflush = [
     "reset saved-configuration",
-    "y",
-    "reboot fast",
     "y"
     ]
 
